@@ -1,7 +1,7 @@
 #include "common.hpp"
 
 #define OOP_CLASS_NAME RedVsGreenGameMode
-CLASS("RedVsGreenGameMode", "GameModeBase")
+CLASS("RedVsGreenGameMode", "CivilWarGameMode")
 	VARIABLE("linePt");
 
 	METHOD(new)
