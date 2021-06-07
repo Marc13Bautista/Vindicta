@@ -51,13 +51,11 @@ CLASS("InGameMenuTabGameModeInit", "DialogTabBase")
 		pr _gameModes = [["Civil War", "CivilWarGameMode"]];
 
 		// Add more game modes for debug builds
-		#ifndef RELEASE_BUILD
 		_gameModes append [
 			["Red VS Green", "RedVsGreenGameMode"],
 			["Expand", "ExpandGameMode"],
 			["Almost Empty", "AlmostEmptyGameMode"]
 		];
-		#endif
 		{
 			_cbGameMode lbAdd _x#0;
 			_cbGameMode lbSetData [_forEachIndex, _x#1];

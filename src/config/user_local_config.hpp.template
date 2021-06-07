@@ -3,7 +3,7 @@
 
 // --------------------- MISC ---------------------
 // Define a macro for this build config, use this to toggle specific behaviour elsewhere
-//#define RELEASE_BUILD
+#define RELEASE_BUILD
 
 // This is an interesting flag
 // It disables GameMode init, GameManager init, for faster loading and testing
@@ -46,9 +46,9 @@
 // --------------------- LOGGING/MARKERS ---------------------
 // Default oop config overrides.
 // Enable logging levels
-#define OOP_DEBUG
-#define OOP_INFO
-#define OOP_WARNING
+//#define OOP_DEBUG
+//#define OOP_INFO
+//#define OOP_WARNING
 #define OOP_ERROR
 #define OOP_LOGF
 

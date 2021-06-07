@@ -103,7 +103,7 @@ CLASS("GameModeBase", "MessageReceiverEx")
 		// Default template names
 		T_SETV("tNameMilWest", "tNATO");
 		T_SETV("tNameMilInd", "tAAF");
-		T_SETV("tNameMilEast", "tCSAT");
+		T_SETV("tNameMilEast", "tRHS_AFRF");
 		T_SETV("tNamePolice", "tPOLICE");
 		T_SETV_PUBLIC("tNameCivilian", "tCivilian"); // Required on client
 
